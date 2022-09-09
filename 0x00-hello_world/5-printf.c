@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Description: main-print out a string to stdout.
+ * Description: main-print out a string to stderr.
  * Return: 0 if success
  */
 int main(void)
