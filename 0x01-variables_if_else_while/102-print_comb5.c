@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (p = 0; p < 100; p++)
 		{
-			if (p < i)
+			if (p > i)
 			{
 				putchar((i / 10) + '0');
 				putchar((i % 10) + '0');
