@@ -11,9 +11,6 @@ int main(int argc, char *argv[])
 {
 	int result = 0, num, i, j, k;
 
-	if (argc == 1)
-		printf("o\n");
-
 	for (i = 0; i < argc; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
