@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -> a program that print all argument it recieve
  * @argc: argc parameter
