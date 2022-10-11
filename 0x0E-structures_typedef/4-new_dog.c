@@ -9,7 +9,7 @@
  *
  * Return: NULL if fall.
  */
-dog *new_dog(char *name, flaot age, char *owner)
+dog_t *new_dog(char *name, flaot age, char *owner)
 {
 	int i, lenN, lenO;
 
