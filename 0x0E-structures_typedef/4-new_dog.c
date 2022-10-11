@@ -2,14 +2,14 @@
 #include "dog.h"
 
 /**
- * new_dog - creates a new sog
+ * new_dog - creates a new dog
  * @name: 1st member
  * @age: 2nd member
  * @owner: 3rd member
  *
  * Return: NULL if fall.
  */
-dog_t *new_dog(char *name, flaot age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i, lenN, lenO;
 
