@@ -1,6 +1,10 @@
 #ifndef _LISTS_
 #define _LISTS_
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
  * struct list_s - stingly linked list
  * @str: string - (mallock ' ed string)
