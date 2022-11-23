@@ -1,13 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - print _putchar
+ * main - Prints the word _putchar
  *
- * Return: return always (Success)
+ * Return: 0 Success
  */
+
 int main(void)
 {
-	printf("_putchar\n");
+	char word[8] = "_putchar";
+	int i;
+
+	for (i = 0; i <= 7; i++)
+	{
+		putchar(word[i]);
+	}
+
+	putchar('\n');
 
 	return (0);
 }
